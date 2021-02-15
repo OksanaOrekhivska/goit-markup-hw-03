@@ -16,6 +16,14 @@
   --white-text-op60: rgba(255, 255, 255, 0.6);
   
   --black: #000000;
+
+
+  --dist-cards: 30px; 
+}
+
+.img {
+  display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -28,6 +36,7 @@
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -343,4 +352,40 @@ a {
   font-size: 16px;
   line-height: 1.87;
   color: var(--black-light);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-filters {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * var(--dist-cards));
+  margin-top: calc(-1 * var(--dist-cards));
+}
+
+.card-filters > .element {
+  flex-basis: calc(100% / 3 - var(--dist-cards));
+
+  margin-left: var(--dist-cards);
+  margin-top: var(--dist-cards);
+}
+
+.filters-title {
+  margin-top: 20px;
+}
+
+.filters-text {
+  margin-top: 4px;
 }
