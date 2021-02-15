@@ -382,10 +382,11 @@ a {
   margin-top: var(--dist-cards);
 }
 
-.filters-title {
-  margin-top: 20px;
-}
 
 .filters-text {
   margin-top: 4px;
+}
+
+.card-content {
+  padding: ;
 }
