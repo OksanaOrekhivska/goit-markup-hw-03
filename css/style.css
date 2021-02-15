@@ -18,6 +18,12 @@
   --black: #000000;
 }
 
+.list {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+}
+
 .container {
   max-width: 1200px;
   padding-left: 15px;
@@ -41,13 +47,11 @@ a {
 
 .page-links{
   display: flex;
+  margin-left: 93px;
 }
 
-.page-links .links {
-  margin-right: 50px;
-}
 
-.page-links .links + .links {
+.page-links .item + .item {
   margin-left: 50px;
 }
 
@@ -57,11 +61,16 @@ a {
   padding-bottom: 32px;
 }
 
-.contact-links {
-  display: flex;
+.contacts-links .links {
+  margin-right: 50px;
 }
 
-.contact-links .links + .links {
+.contact-links {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-links .item + .item {
   margin-left: 50px;
 }
 
