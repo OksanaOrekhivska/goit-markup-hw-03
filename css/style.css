@@ -83,6 +83,10 @@ a {
   margin-left: 50px;
 }
 
+.contact-links {
+  margin-left: auto;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -388,5 +392,5 @@ a {
 }
 
 .card-content {
-  padding: ;
+  padding: 24;
 }
