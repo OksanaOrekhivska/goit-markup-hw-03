@@ -73,6 +73,7 @@ a {
 .contact-links {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .contact-links .item + .item {
