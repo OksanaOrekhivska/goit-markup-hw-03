@@ -212,13 +212,18 @@ a {
 }
 
   
-.container .about-us-container {
+.container .about-us {
   width: 1200px;
   padding: 0 15px; 
 }
 
-.about-us .container {
+.about-us-container {
   width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-title {
