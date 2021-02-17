@@ -318,6 +318,14 @@ a {
   line-height: 1.18;
   color: var(--black-light);
 }
+
+.our-tem {
+  width: 1200px;
+  padding: 0 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
   
 .address {
   font-style: normal;
