@@ -214,16 +214,21 @@ a {
   
 .container .about-us {
   width: 1200px;
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
-.about-us-container {
+.set-info {
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  
+
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+
+.set-info > .list {
+
 }
 
 .list-title {
