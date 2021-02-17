@@ -289,12 +289,17 @@ a {
   margin: 0;
   list-style: none;
   display: flex;
+
+  margin-left: - 30px;
 }
 
 .container-our-work > .img {
-  flex-basis: calc(100% / 3);
-  margin-right: 30px;
+  flex-basis: calc(100% / 3 - 30px);
   margin-block: 94px;
+}
+
+.container-our-work .img {
+  padding-left: 30px;
 }
   
 .employee-name {
