@@ -212,24 +212,29 @@ a {
 }
 
   
-.container .about-us {
+.about-us {
   width: 1200px;
   padding: 0 15px;
 }
 
 .set-info {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-
 }
 
-.set-info .list + .list {
-  margin-left: 30px;
+.set-info .list {
+  width: 270px;
+}
+
+.set-info .list + .li {
+  padding-left: 30px;
 }
 
 .set-info > .list {
   flex-basis: calc(100% / 4);
+}
+
+.set-info:nth-child(4n + 4) {
+  margin-right: 0px;
 }
 
 .list-title {
@@ -239,6 +244,7 @@ a {
 
 .list-text {
   margin-bottom: 186px;
+  width: ;
 }
 
 .list-title {
