@@ -218,17 +218,27 @@ a {
 }
 
 .set-info {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-
   margin-left: auto;
   margin-right: auto;
   display: flex;
+
+}
+
+.set-info .list + .list {
+  margin-left: 30px;
 }
 
 .set-info > .list {
+  flex-basis: calc(100% / 4);
+}
 
+.list-title {
+  margin-top: 94px;
+  padding-bottom: 10px;
+}
+
+.list-text {
+  margin-bottom: 186px;
 }
 
 .list-title {
