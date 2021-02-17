@@ -225,7 +225,7 @@ a {
   width: 270px;
 }
 
-.set-info .list + .li {
+.set-info .list + .list {
   padding-left: 30px;
 }
 
@@ -233,9 +233,6 @@ a {
   flex-basis: calc(100% / 4);
 }
 
-.set-info:nth-child(4n + 4) {
-  margin-right: 0px;
-}
 
 .list-title {
   margin-top: 94px;
