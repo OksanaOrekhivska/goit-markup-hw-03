@@ -28,7 +28,7 @@
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -41,6 +41,15 @@ img {
 .container {
   width: 1200px;
   margin: 0 15px;
+
+  background-color: var(--bac-gray);
+}
+
+.page-header {
+  width: 1200px;
+  margin: 0 15px;
+
+  background-color: var(--hite);
 }
 
 body { 
@@ -290,14 +299,14 @@ a {
   list-style: none;
   display: flex;
 
-  margin-left: - 30px;
+  margin-left: -30px;
   margin-top: -50px;
 }
 
 .container-our-work > .card-list  {
   flex-basis: calc(100% / 3 - 30px);
 
-  padding-left: 30px;
+  margin-left: 30px;
   margin-top: 50px;
 
   margin-bottom: 94px;
@@ -453,9 +462,6 @@ a {
   background-color: var(--background);
 }
   
-.about-us {
-  background-color: var(--bac-gray);
-}
   
 .our-team {
   background-color: var(--bac-dark-grey);
@@ -464,17 +470,27 @@ a {
 .footer {
   background-color: var(--background);
   padding: 60px 0;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
   
 .main {
   background-color: var(--bac-gray);
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
   
 <!-- портфоліо -->
     
-.filters {
-  display: flex;
-  justify-content: center;
+.btn-box {
+  disp
+  
 }
 
 
