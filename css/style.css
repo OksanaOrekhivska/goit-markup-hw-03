@@ -291,17 +291,17 @@ a {
   display: flex;
 
   margin-left: - 30px;
+  margin-top: -50px;
 }
 
-.card-list .card-thumb {
+.container-our-work > .card-list  {
   flex-basis: calc(100% / 3 - 30px);
-  margin-block: 94px;
-}
 
-.card-list .card-thumb {
   padding-left: 30px;
+  margin-top: 50px;
+
+  margin-bottom: 94px;
 }
-  
 
 
 .card-list {
