@@ -471,7 +471,16 @@ a {
 <!-- портфоліо -->
     
 .filters {
-  display: inline;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 6px 22px;
+  margin-top: px;
+  margin-bottom: px;
+
+  
 }
   
 .btn {
@@ -544,19 +553,17 @@ a {
   
 /* ПІДВАЛ*/
 
-.footer {
+.footer-container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px; 
+
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .contacts {
   display: block;
-}
-
-.footer {
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
 .footer-logo {
