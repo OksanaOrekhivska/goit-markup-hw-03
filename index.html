@@ -12,7 +12,7 @@
     </head>
   <body>
     <header class="header" > 
-         <div class="container page-header">
+        <div class="container page-header">
           <nav class="nav-links  main-nav">
             <a href="/" class="logotype"> <span class="accent">Web</span>Studio</a>
 
@@ -28,7 +28,7 @@
             </ul> 
           
            
-         </div> 
+        </div> 
     </header>
     <main>
   
@@ -46,7 +46,7 @@
           <section class="container">
 
               <h2 class="visually-hidden"> Прихований заголовок  </h2> 
-           
+           <!-- НАШІ ПЕРЕВАГИ -->
               <div class="about-us-container">
 
                 <ul class="set-info">
@@ -81,103 +81,143 @@
     
           </section>
         
-    
+    <!-- НАША РОБОТА-->
         <div class="container">
             <section class="our-work">
               <h2 class="our-work-title"> Чем мы занимаемся </h2>
              <ul class="container-our-work"> 
-                <li class="img">
-                   <img 
-                     src="./img/img1.jpg" 
-                     alt="Написання коду"
-                     width="370"
-                     />   
+                <li class="card-list">
+                   <div class="card-thumb">
+                    <img 
+                    src="./img/img1.jpg" 
+                    alt="Написання коду"
+                    width="370"
+                    />
+                   </div>   
                 </li>
-                <li class="img"> 
-                  <img 
+                <li class="card-list"> 
+                  <div class="card-thumb">
+                    <img 
                      src="./img/img2.jpg"
                      alt=" Робота за компютером"
                      width="370"
-                     />   
+                     />
+                  </div>   
                 </li>
-                <li class="img">  
-                  <img
+                <li class="card-list">  
+                  <div class="card-thumb">
+                    <img
                    src="./img/img3.jpg"
                    alt="Робота в планшеті"
                    width="370"
-                   />   
+                   /> 
+                  </div>  
                 </li>
               </ul>
             </section>
         </div>
       </div>
-        
+        <!-- НАША КОМАНДА-->
       <div class="container">
         <section class="our-team"> 
 
           <h2 class="our-team-title">Наша команда </h2>
+              
+          <div class="container-our-team">
+             
+            <ul class="our-team-list">
 
-            <ul>
+              <li class="item">
 
-              <li>
+               <article class="card">
 
-                <img 
+                <div class="card-thumb">
+                  <img 
                  src="./img/img4.jpg"
                  alt="фото нашого працівника -Игоря Демьяненко "
                  width="270"/>
+                </div>
 
-                <h3 class="employee-name"> Игорь Демьяненко </h3>
-                <p class="employee-position"> Product Designer  </p>
+                <div class="card-content">
+                  <h3 class="employee-name"> Игорь Демьяненко </h3>
+                  <p class="employee-position"> Product Designer  </p>
+                </div>
+               </article>
               </li>
 
-              <li>
-                <img
-                 src="./img/img5.jpg"
-                 alt="Фото нашої працівниці -Ольги Репиної"
-                 width="270" />
+              <li class="item">
 
-               <h3 class="employee-name">Ольга Репина </h3>
-               <p class="employee-position">Frontend Developer </p>
+                <article class="card">
+                  <div class="card-thumb">
+                    <img
+                    src="./img/img5.jpg"
+                    alt="Фото нашої працівниці -Ольги Репиної"
+                    width="270" />
+                  </div>
+  
+                  <div class="card-content">
+                    <h3 class="employee-name">Ольга Репина </h3>
+                    <p class="employee-position">Frontend Developer </p>
+                  </div>
+                </article>
               </li>
 
-              <li>
-                <img
-                 src="./img/img6.jpg"
-                 alt="фото нашого працівника -Николая Тарасова  "
-                 width="270" />
+              <li class="item">
 
-               <h3 class="employee-name"> Николай Тарасов </h3>
-               <p class="employee-position">Marketing </p>
+                <article class="card">
+                  <div class="card-thumb"> 
+                    <img
+                    src="./img/img6.jpg"
+                    alt="фото нашого працівника -Николая Тарасова  "
+                    width="270" />
+                  </div>
+  
+                  <div class="card-content">
+                    <h3 class="employee-name"> Николай Тарасов </h3>
+                    <p class="employee-position">Marketing </p>
+                  </div>
+                </article>
               </li>
 
-              <li>
-                <img
-                 src="./img/img7.jpg"
-                 alt="фото нашого працівника -Михаила Ермакова"
-                 width="270"/>
+              <li class="item">
 
-               <h3 class="employee-name">Михаил Ермаков </h3>
-               <p class="employee-position"> UI Designer</p>
+                <article class="card">
+                  <div class="card-thumb">
+                    <img
+                   src="./img/img7.jpg"
+                   alt="фото нашого працівника -Михаила Ермакова"
+                   width="270"/>
+                  </div>
+  
+                  <div class="card-content">
+                    <h3 class="employee-name">Михаил Ермаков </h3>
+                    <p class="employee-position"> UI Designer</p>
+                  </div>
+                </article>
               </li>
 
             </ul>
+          
+          </div>
 
         </section>
       </div>
     </main>
 
   <footer class="footer">
-       <div class="container">
+       
         <a href="/" class="footer-logo"> <span class="accent">Web</span>Studio</a>
         
         <address id="contacts" > 
+          
           <p class="address">г. Киев, пр-т Леси Украинки, 26   </p> 
-          <ul class="contact-links">
-           <li><a class="contact-l" href="mailto:info@example.com ">info@example.com  </a> </li> 
+          <ul class="contact-links-footer">
+
+           <li class="contact-meil"><a class="contact-l" href="mailto:info@example.com ">info@example.com  </a> </li> 
            <li><a class="contact-l" href="tel:+380991111111">+38 099 111 11 11 </a> </li> 
           </ul>
         </address>
-       </div>
+     
     </footer>
 
  </body>
