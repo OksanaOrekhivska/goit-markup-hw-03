@@ -470,8 +470,10 @@ a {
   
 <!-- портфоліо -->
     
-
-
+.filters {
+  display: inline;
+}
+  
 .btn {
   color: var(--black-text);
   font-weight: 500;
