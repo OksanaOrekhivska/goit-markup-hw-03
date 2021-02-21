@@ -38,6 +38,10 @@ img {
   list-style: none;
 }
 
+.btn {
+  border: none;
+}
+
 .container {
   width: 1200px;
   margin: 0 15px;
@@ -476,21 +480,27 @@ a {
   padding-right: 15px;
 
 }
-  
-.main {
+
+<!-- портфоліо -->
+
+.container-portfolio {
   background-color: var(--bac-gray);
 
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
   
-<!-- портфоліо -->
+}
     
 .btn-box {
-  disp
-  
+  display: flex;
+  justify-content: center;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+
+  background-color: var(--bac-gray);
+}
+
+.btn-box .filter-element {
+  margin-right: 8px;
 }
 
 
@@ -498,6 +508,8 @@ a {
   padding: 6px 22px;
   margin-top: px;
   margin-bottom: px;
+
+  background-color: var(--bac-dark-grey);
 
   
 }
@@ -532,7 +544,7 @@ a {
   color: var(--black-light);
 }
 
-.main {
+.main-main {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -549,6 +561,9 @@ a {
 
   margin-top: -50px;
   margin-left: -30px;
+
+  background-color: var(--bac-gray);
+
 }
 
 .card-filters > .element {
