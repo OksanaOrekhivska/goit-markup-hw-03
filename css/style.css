@@ -52,7 +52,6 @@ img {
 .page-header {
   width: 1200px;
   margin: 0 15px;
-
   background-color: var(--hite);
 }
 
@@ -69,8 +68,8 @@ a {
 .page-header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
 } 
+
 
 .page-links{
   display: flex;
@@ -198,6 +197,10 @@ a {
   margin: 0 15px; 
 }
 
+.container-hero {
+  padding-bottom: 200px;
+}
+
 .hero {
   padding-top: 200px;
   text-align: center;
@@ -207,12 +210,11 @@ a {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
   
 .hero-button {
   padding: 10px 32px;
-  margin-top: 30px;
-  margin-bottom: 200px;
 }
 
 
@@ -252,8 +254,8 @@ a {
   padding-bottom: 10px;
 }
 
-.list-text {
-  margin-bottom: 186px;
+.list {
+  margin-bottom: 94px;
 }
 
 .list-title {
@@ -293,7 +295,7 @@ a {
 
 .our-work-title {
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -313,7 +315,7 @@ a {
   margin-left: 30px;
   margin-top: 50px;
 
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 
@@ -497,6 +499,10 @@ a {
   padding-bottom: 50px;
 
   background-color: var(--bac-gray);
+}
+
+.btn-box .filter-element:last-child {
+  margin-right: 0px; 
 }
 
 .btn-box .filter-element {
