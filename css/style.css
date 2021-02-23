@@ -51,7 +51,8 @@ img {
 
 .page-header {
   width: 1200px;
-  margin: 0 15px;
+  padding: 0 15px;
+ 
   background-color: var(--hite);
 }
 
@@ -254,9 +255,6 @@ a {
   padding-bottom: 10px;
 }
 
-.list {
-  margin-bottom: 94px;
-}
 
 .list-title {
   font-style: normal;
