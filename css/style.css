@@ -45,8 +45,7 @@ img {
 
 .container {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-left: 15px ;
   padding-right: 15px;
 }
@@ -171,13 +170,6 @@ a {
 
 /* HERO*/
 
-.hero > .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 200px 15px;
-}
-
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -202,15 +194,15 @@ a {
   background-color: #2196f3;
 }
 
-.hero .container {
-  width: 1200px;
-  margin: 0 15px; 
-}
-
 .hero {
   max-width: 1600px;
   text-align: center;
+  margin: 0 auto;
 } 
+
+.container-hero {
+  padding: 200px 5px;
+}
 
 .hero-title {
   width: 696px;
@@ -252,7 +244,6 @@ a {
 
 .set-info {
   display: flex;
-
   width: 1200px;
   margin: 0 15px;
 }
@@ -364,8 +355,6 @@ a {
 }
 
 .container-our-team {
-  margin-left: 0;
-  margin-right: 0;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -567,6 +556,7 @@ a {
   padding-right: 15px;
 
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .card-filters {
@@ -579,9 +569,6 @@ a {
 
   margin-top: -50px;
   margin-left: -30px;
-
-  
-
 }
 
 .card-filters > .element {
@@ -605,21 +592,11 @@ a {
   
 /* ПІДВАЛ*/
 
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px; 
-  
-}
-
 .contacts {
   display: block;
 }
 
 .footer-logo {
-  
   margin-bottom: 20px;
 }
 
