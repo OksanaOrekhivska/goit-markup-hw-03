@@ -259,7 +259,7 @@ a {
 
 
 .list-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -344,6 +344,10 @@ a {
 
 /* наша команда */
 
+.our-team > .container {
+  background-color: var(--bac-dark-grey);
+}
+
 .our-team-title {
   text-align: center;
   margin-bottom: 50px;
@@ -389,11 +393,13 @@ a {
 
 
 /* footer */
+.footer {
+  background-color: var(--background);
+}
 
 .footer >.container {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--background);
 }
 
 .address {
@@ -474,11 +480,6 @@ a {
   
 .hero {
   background-color: var(--background);
-}
-  
-  
-.our-team {
-  background-color: var(--bac-dark-grey);
 }
 
 
