@@ -49,7 +49,6 @@ img {
   margin-right: auto;
   padding-left: 15px ;
   padding-right: 15px;
-  background-color: var(--bac-gray);
 }
 
 .page-header {
@@ -219,6 +218,10 @@ a {
 
 
 /*НАШІ ПЕРЕВАГИ */
+
+.about-us > .container {
+  background-color: var(--bac-gray);
+}
 
 .about-us-container {
   padding-top: 94px;
