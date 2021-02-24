@@ -226,7 +226,7 @@ a {
 
 /*НАШІ ПЕРЕВАГИ */
 
-.about-us > .container {
+.about-us {
   background-color: var(--bac-gray);
 }
 
@@ -291,7 +291,6 @@ a {
 
 .our-work > .container {
   padding-bottom: 94px;
-  background-color: var(--bac-gray);
 }
 
 .our-work-title {
@@ -355,7 +354,7 @@ a {
 
 /* наша команда */
 
-.our-team > .container {
+.our-team {
   background-color: var(--bac-dark-grey);
 }
 
