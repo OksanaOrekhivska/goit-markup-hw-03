@@ -171,6 +171,13 @@ a {
 
 /* HERO*/
 
+.hero > .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 15px;
+}
+
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -202,7 +209,6 @@ a {
 
 .hero {
   max-width: 1600px;
-  padding: 200px 15px;
   text-align: center;
 } 
 
@@ -227,6 +233,7 @@ a {
 .about-us-container {
   padding-top: 94px;
   padding-bottom: 94px;
+  
 }
 
 .visually-hidden {
@@ -282,6 +289,11 @@ a {
   
 /*наша робота*/
 
+.our-work > .container {
+  padding-bottom: 94px;
+  background-color: var(--bac-gray);
+}
+
 .our-work-title {
   font-style: normal;
   font-weight: 700;
@@ -317,8 +329,6 @@ a {
   flex-basis: calc(100% / 3 - 30px);
 
   margin-left: 30px;
-
-  padding-bottom: 94px;
 }
 
 
@@ -358,6 +368,7 @@ a {
   margin-left: 0;
   margin-right: 0;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-team-list {
