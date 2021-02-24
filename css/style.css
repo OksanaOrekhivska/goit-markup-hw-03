@@ -494,8 +494,6 @@ a {
 }
 
 
-<!-- портфоліо -->
-
 .container-portfolio {
   background-color: var(--bac-gray);
 
@@ -524,8 +522,6 @@ a {
   margin-bottom: px;
 
   background-color: var(--bac-dark-grey);
-
-  
 }
   
 .btn {
@@ -558,6 +554,11 @@ a {
   color: var(--black-light);
 }
 
+.main {
+  background-color: var(--bac-gray)
+
+}
+
 .main-main {
   max-width: 1200px;
   margin-left: auto;
@@ -566,8 +567,6 @@ a {
   padding-right: 15px;
 
   padding-top: 94px;
-
-  background-color: var(--bac-gray)
 }
 
 .card-filters {
