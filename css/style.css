@@ -551,8 +551,9 @@ a {
   padding-right: 15px;
 
   padding-top: 94px;
-}
 
+  background-color: var(--bac-gray)
+}
 
 .card-filters {
   padding: 0;
