@@ -21,6 +21,7 @@
   --dist-cards: 30px; 
 }
 
+
 *{
   margin: 0;
   padding: 0;
@@ -43,9 +44,11 @@ img {
 }
 
 .container {
-  width: 1200px;
-  margin: 0 15px;
-
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px ;
+  padding-right: 15px;
   background-color: var(--bac-gray);
 }
 
@@ -198,12 +201,8 @@ a {
   margin: 0 15px; 
 }
 
-.container-hero {
-  padding-bottom: 200px;
-}
-
 .hero {
-  padding-top: 200px;
+  padding: 200px 15px;
   text-align: center;
 } 
 
@@ -220,6 +219,12 @@ a {
 
 
 /*НАШІ ПЕРЕВАГИ */
+
+.about-us-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -242,7 +247,7 @@ a {
 }
 
 .set-info .list + .list {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .set-info > .list {
@@ -251,7 +256,6 @@ a {
 
 
 .list-title {
-  margin-top: 94px;
   padding-bottom: 10px;
 }
 
@@ -293,25 +297,22 @@ a {
 
 .our-work-title {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 
 .container-our-work {
-  padding: 0;
+  padding-top: 50px;
   margin: 0;
   list-style: none;
   display: flex;
 
   margin-left: -30px;
-  margin-top: -50px;
 }
 
 .container-our-work > .card-list  {
   flex-basis: calc(100% / 3 - 30px);
 
   margin-left: 30px;
-  margin-top: 50px;
 
   padding-bottom: 94px;
 }
@@ -342,13 +343,13 @@ a {
 
 .our-team-title {
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .container-our-team {
   margin-left: 0;
   margin-right: 0;
+  padding-top: 94px;
 }
 
 .our-team-list {
@@ -385,6 +386,12 @@ a {
 
 
 /* footer */
+
+.footer >.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background);
+}
 
 .address {
   font-style: normal;
@@ -470,16 +477,7 @@ a {
 .our-team {
   background-color: var(--bac-dark-grey);
 }
-  
-.footer {
-  background-color: var(--background);
-  padding: 60px 0;
 
-  width: 1200px;
-  margin-left: 15px;
-  margin-right: 15px;
-
-}
 
 <!-- портфоліо -->
 
@@ -492,10 +490,7 @@ a {
 .btn-box {
   display: flex;
   justify-content: center;
-
-  padding-top: 94px;
-  padding-bottom: 50px;
-
+  margin-bottom: 50px;
   background-color: var(--bac-gray);
 }
 
@@ -549,9 +544,13 @@ a {
 }
 
 .main-main {
-  width: 1200px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  padding-top: 94px;
 }
 
 
@@ -591,10 +590,13 @@ a {
   
 /* ПІДВАЛ*/
 
-.footer-container {
-  width: 1200px;
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px; 
+  
 }
 
 .contacts {
