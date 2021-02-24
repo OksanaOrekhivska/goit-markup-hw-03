@@ -16,47 +16,48 @@
   --white-text-op60: rgba(255, 255, 255, 0.6);
   
   --black: #000000;
-​
-​
+
+
   --dist-cards: 30px; 
 }
-​
-​
+
+
 *{
   margin: 0;
   padding: 0;
 }
-​
+
 img {
   display: block;
   width: 100%;
   height: auto;
 }
-​
+
 .list {
   padding: 0%;
   margin: 0%;
   list-style: none;
 }
-​
+
 .btn {
   border: none;
 }
-​
+
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px ;
   padding-right: 15px;
 }
-​
+
 .page-header {
   width: 1200px;
   padding: 0 15px;
  
   background-color: var(--hite);
 }
-​
+
 body { 
   font-family: "Roboto", sans-serif;
 }
@@ -64,56 +65,56 @@ body {
 a {
   text-decoration: none;
 }
-​
+
 /* ШАПКА*/
-​
+
 .page-header {
   display: flex;
   align-items: center;
 } 
-​
-​
+
+
 .page-links{
   display: flex;
   margin-left: 93px;
 }
-​
-​
+
+
 .page-links .item + .item {
   margin-left: 50px;
 }
-​
+
 .page-links .links {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-​
+
 .contacts-links .links {
   margin-right: 50px;
 }
-​
+
 .contact-links {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
-​
+
 .contact-links .item + .item {
   margin-left: 50px;
 }
-​
+
 .contact-links {
   margin-left: auto;
   align-items: center;
 }
-​
+
 .main-nav {
   display: flex;
   align-items: center;
   
 }
-​
+
 .logotype {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -137,7 +138,7 @@ a {
   line-height: 1.14;
 }
   
-​
+
 .page-links .links.current {
   color: var(--blue-active);
 }
@@ -167,10 +168,16 @@ a {
 .contact-links .links:focus {
   color: var(--blue-active);
 }
-​
+
 /* HERO*/
-​
-​
+
+.hero > .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 15px;
+}
+
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -194,16 +201,17 @@ a {
   color: var(--white);
   background-color: #2196f3;
 }
-​
+
+.hero .container {
+  width: 1200px;
+  margin: 0 15px; 
+}
+
 .hero {
   max-width: 1600px;
   text-align: center;
-  margin: 0 auto;
 } 
-.container-hero{
-  padding: 200px 15px;
-}
-​
+
 .hero-title {
   width: 696px;
   margin-left: auto;
@@ -214,21 +222,20 @@ a {
 .hero-button {
   padding: 10px 32px;
 }
-​
-​
+
+
 /*НАШІ ПЕРЕВАГИ */
-​
+
 .about-us {
   background-color: var(--bac-gray);
 }
-​
-​
+
 .about-us-container {
   padding-top: 94px;
   padding-bottom: 94px;
   
 }
-​
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -241,28 +248,29 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-​
-​
+
+
 .set-info {
   display: flex;
+
   width: 1200px;
-  padding: 0 15px;
+  margin: 0 15px;
 }
-​
+
 .set-info .list + .list {
   margin-left: 30px;
 }
-​
+
 .set-info > .list {
   flex-basis: calc((100% - 90px) / 4);
 }
-​
-​
+
+
 .list-title {
   margin-bottom: 10px;
 }
-​
-​
+
+
 .list-title {
   font-style: normal;
   font-weight: 700;
@@ -280,11 +288,11 @@ a {
 }
   
 /*наша робота*/
-​
-.our-work{
+
+.our-work > .container {
   padding-bottom: 94px;
 }
-​
+
 .our-work-title {
   font-style: normal;
   font-weight: 700;
@@ -301,33 +309,33 @@ a {
   line-height: 1.16;
   color: var(--black-text);
 }
-​
+
 .our-work-title {
   text-align: center;
 }
-​
-​
+
+
 .container-our-work {
   padding-top: 50px;
   margin: 0;
   list-style: none;
   display: flex;
-​
+
   margin-left: -30px;
 }
-​
+
 .container-our-work > .card-list  {
   flex-basis: calc(100% / 3 - 30px);
-​
+
   margin-left: 30px;
 }
-​
-​
+
+
 .card-list {
   margin: 0;
 }
   
-​
+
 .employee-name {
   font-style: normal;
   font-weight: 500;
@@ -343,66 +351,68 @@ a {
   line-height: 1.18;
   color: var(--black-light);
 }
-​
+
 /* наша команда */
-​
+
 .our-team {
   background-color: var(--bac-dark-grey);
 }
-​
+
 .our-team-title {
   text-align: center;
   margin-bottom: 50px;
 }
-​
+
 .container-our-team {
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-​
+
 .our-team-list {
   padding: 0;
   margin: 0%;
   list-style: none;
-​
+
   display: flex;
   flex-wrap: wrap;
-​
+
   margin-left: -30px;
   margin-top: -0;
 }
-​
+
 .card {
   border-radius: 5px;
 }
-​
+
 .our-team-list > .item {
   flex-basis: calc(100% / 4 - 30px);
-​
+
   margin-left: 30px;
   margin-top: 0;
 }
-​
+
 .card-content {
   padding: 30px 59px 30px 60px;
   background-color: var(--white);
 }
-​
+
 .employee-position {
   margin-top: 10px;
 }
-​
-​
+
+
 /* footer */
 .footer {
   background-color: var(--background);
 }
-​
+
 .footer >.container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-​
+
 .address {
   font-style: normal;
   font-weight: 400;
@@ -410,7 +420,7 @@ a {
   line-height: 1.71;
 }
    
-​
+
 .address {
   color: var(--white);
 }
@@ -482,11 +492,11 @@ a {
 .hero {
   background-color: var(--background);
 }
-​
-​
+
+
 .container-portfolio {
   background-color: var(--bac-gray);
-​
+
   
 }
     
@@ -496,21 +506,21 @@ a {
   margin-bottom: 50px;
   background-color: var(--bac-gray);
 }
-​
+
 .btn-box .filter-element:last-child {
   margin-right: 0px; 
 }
-​
+
 .btn-box .filter-element {
   margin-right: 8px;
 }
-​
-​
+
+
 .btn {
   padding: 6px 22px;
   margin-top: px;
   margin-bottom: px;
-​
+
   background-color: var(--bac-dark-grey);
 }
   
@@ -543,80 +553,88 @@ a {
   line-height: 1.87;
   color: var(--black-light);
 }
-​
+
 .main {
   background-color: var(--bac-gray)
-​
+
 }
-​
+
 .main-main {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-​
+
   padding-top: 94px;
 }
-​
+
 .card-filters {
   padding: 0;
   margin: 0;
   list-style: none;
-​
+
   display: flex;
   flex-wrap: wrap;
-​
+
   margin-top: -50px;
   margin-left: -30px;
-​
+
   
-​
+
 }
-​
+
 .card-filters > .element {
   flex-basis: calc(100% / 3 - 30px);
-​
+
   margin-left: 30px;
   margin-top: 50px;
 }
-​
+
 .filters-text {
   margin-top: 4px;
 }
-​
+
 .card-content {
   padding: 20px 24px;
 }
-​
+
 .element-card {
   border-radius: 5px;
 }
   
 /* ПІДВАЛ*/
-​
-​
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; 
+  
+}
+
 .contacts {
   display: block;
 }
-​
+
 .footer-logo {
   
   margin-bottom: 20px;
 }
-​
+
 .address {
   margin-bottom: 9px;
 }
-​
+
 .contact-links-footer {
   display: block;
 }
-​
+
 .contact-meil {
   margin-bottom: 9px ;
 }
-​
+
 .contact-links-footer {
   font-style: normal;
   font-weight: 500;
