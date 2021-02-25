@@ -441,6 +441,8 @@ a {
   font-size: 26px;
   line-height: 1.19;
   font-style: normal;
+
+  margin-bottom: 20px;
 }
   
 .footer-logo {
@@ -596,9 +598,6 @@ a {
   display: block;
 }
 
-.footer-logo {
-  margin-bottom: 20px;
-}
 
 .address {
   margin-bottom: 9px;
