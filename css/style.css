@@ -303,11 +303,11 @@ a {
 
 .our-work-title {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 
 .container-our-work {
-  padding-top: 50px;
   margin: 0;
   list-style: none;
   display: flex;
